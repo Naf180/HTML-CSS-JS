@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+main {
+    padding: 2rem 10%;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.div-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro .content {
+    flex: 1;
+}
+
+.intro .content p {
+    margin-bottom: 1rem;
+}
+
+.intro .content p span {
+    color: #ff5722;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.bold a:hover {
+    text-decoration: underline;
+}
+
+.advice h2,
+.mentions h2 {
+    color: #9c27b0;
+    margin-bottom: 1rem;
+}
+
+.mentions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mentions ul li {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.mentions ul li a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.mentions ul li a:hover {
+    text-decoration: underline;
+}
+
+.contacts table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+.contacts table, 
+.contacts th, 
+.contacts td {
+    border: 1px solid #ddd;
+}
+
+.contacts th, 
+.contacts td {
+    padding: 1rem;
+    text-align: left;
+}
+
+.contacts th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    margin-top: 2rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 2rem 5%;
+    }
+
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .div-img img {
+        margin-bottom: 1rem;
+    }
+
+    .contacts th,
+    .contacts td {
+        padding: 0.5rem;
+    }
+}
